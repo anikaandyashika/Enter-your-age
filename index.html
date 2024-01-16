@@ -1,0 +1,26 @@
+
+          <html>
+            <body><html>
+  <h1 id="h1">Type your age below. This text will say how old you are.</h1>
+  <label> Year of Birth:</label>
+  <input type="text" placeholder="Enter your year of birth" id="age">
+  <br>
+  <br>
+  <button onclick="myfunc()">Submit</button>
+  <br><br>
+  <script>
+  function myfunc(){
+        const a = new Date();
+    var demo=document.getElementById("age").value;
+    document.getElementById("h1").innerHTML=a.getFullYear()-demo;
+  }
+    
+    
+
+
+  </script>
+</html></body>
+            <style></style>
+            <script></script>
+          </html>
+        
